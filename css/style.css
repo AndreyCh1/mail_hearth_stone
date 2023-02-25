@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 60px;
+    font-size: 54px;
+    color: #20b4bb;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 170px 40px;
+    font-size: 35px;
+    color: #bcbcbd;
+    font-weight: bold;
+}
+
+.table {
+    margin: auto;
+    max-width: 600px;
+    background-color: #0c131b;
+    border-collapse: collapse;
+}
+
+.scope {
+    padding: 0 70px 35px 55px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #86918c;
+}
+
+.scope a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fa5d26;
+    text-decoration: none;
+}
+
+.scope a:hover {
+    text-decoration: underline;
+}
+
+.main_sentence figure {
+    margin: 0;
+}
+
+.main_sentence p {
+    margin: 0;
+    padding: 0 54px 40px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #86918c;
+}
+
+.buy_button {
+    padding: 0 150px;
+}
+
+.buy_button a {
+    width: 300px;
+    padding: 13px 56px;
+    /* padding-left: 30px; */
+    /* border: 2px solid #fd8300; */
+    border-radius: 3px;
+    font-size: 24px;
+    /* line-height: 24px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fffff8;
+    /* font-weight: bold; */
+    background-color: #9f15a9;
+}
+
+.buy_button:hover > a {
+    /* color: #fff; */
+    /* background-color: #fd8300; */
+}
