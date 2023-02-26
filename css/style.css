@@ -19,6 +19,30 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    margin: 0;
+    padding: 0 33px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #20b4bb;
+}
+
+h4 {
+    margin: 0;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #9f15a9;
+}
+
+h5 {
+    margin: 0;
+    font-size: 11px;
+    color: #85908c;
+    text-align: center;
+}
+
 .table {
     margin: auto;
     max-width: 600px;
@@ -33,6 +57,15 @@ h2 {
     color: #86918c;
 }
 
+.scope p {
+    margin: 0;
+}
+
+.scope b,
+.main_sentence b {
+    color: #e8a336;
+}
+
 .scope a {
     font-size: 14px;
     line-height: 22px;
@@ -44,7 +77,8 @@ h2 {
     text-decoration: underline;
 }
 
-.main_sentence figure {
+.main_sentence figure,
+.pre_order_sentence figure {
     margin: 0;
 }
 
@@ -60,22 +94,84 @@ h2 {
     padding: 0 150px;
 }
 
-.buy_button a {
+.buy_button a,
+.pre_order_button a,
+.stream_button a {
     width: 300px;
-    padding: 13px 56px;
-    /* padding-left: 30px; */
-    /* border: 2px solid #fd8300; */
+    padding: 15px 30px;
+    /* padding: 13px 56px; */
     border-radius: 3px;
     font-size: 24px;
-    /* line-height: 24px; */
     text-decoration: none;
     text-transform: uppercase;
     color: #fffff8;
-    /* font-weight: bold; */
     background-color: #9f15a9;
 }
 
 .buy_button:hover > a {
-    /* color: #fff; */
-    /* background-color: #fd8300; */
+
+}
+
+.some_class {
+    padding: 0;
+    font-size: 23px;
+    text-align: center;
+}
+
+.pre_order_button {
+    margin: 17px 0;
+    font-size: 18px;
+}
+
+.table .pre_order_button a {
+    padding: 15px 40px;
+    font-size: 18px;
+}
+
+.another_h2 {
+    padding: 0 40px;
+    text-align: center;
+}
+
+.scope_stream {
+    padding: 0 50px;
+}
+
+.stream_button {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.support {
+    font-size: 36px;
+    color: #263870;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contacts {
+    padding: 0 80px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+}
+
+.footer {
+    background-color: #ebd2aa;
+}
+
+.footer a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #b25000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer b {
+    color: #b25000;
 }
